@@ -29,18 +29,18 @@
           <p class="section-label">GitHub Pages Portfolio</p>
           <h1>GitHub에 올린 프로젝트를 한 페이지에 정리했습니다.</h1>
           <p class="hero-summary">
-            현재 공개 저장소 기준으로 학습용 웹앱, 퍼즐 웹앱, 그리고 포트폴리오/아카이브 저장소를
-            한눈에 볼 수 있게 구성했습니다. 대표 프로젝트는 사람이 읽기 쉬운 글로 정리했고, 전체 공개 저장소는
-            GitHub API로 자동 반영되도록 만들었습니다.
+            현재 계정의 대표 작업을 학습용 웹앱, 퍼즐 웹앱, Windows GUI 유틸리티 중심으로 정리했습니다.
+            대표 프로젝트는 사람이 읽기 쉬운 글로 요약했고, 아래 저장소 목록은 GitHub API로 공개 저장소만
+            자동 반영되도록 구성했습니다.
           </p>
           <div class="hero-actions">
             <a class="button button--primary" href="https://github.com/kibin0-0" target="_blank" rel="noreferrer">GitHub 프로필</a>
             <a class="button button--ghost" href="#repositories">전체 저장소 보기</a>
           </div>
           <ul class="hero-notes">
-            <li>정적 웹앱 중심의 프로젝트 정리</li>
-            <li>라이브 데모와 저장소 링크를 함께 제공</li>
-            <li>앞으로 공개 저장소가 늘어나면 목록도 자동 갱신</li>
+            <li>웹앱과 개발환경 유틸리티 중심의 프로젝트 정리</li>
+            <li>라이브 데모, 저장소 링크, 비공개 프로젝트 소개를 함께 제공</li>
+            <li>공개 저장소 목록은 자동 갱신되고 대표 프로젝트 설명은 수동으로 다듬음</li>
           </ul>
         </section>
 
@@ -115,22 +115,21 @@
 
           <article class="feature-card accent-gold">
             <div class="card-head">
-              <p class="card-kicker">Portfolio and archive</p>
-              <h3>kibin0-0.github.io</h3>
+              <p class="card-kicker">Windows GUI utility</p>
+              <h3>Developer Tool Audit</h3>
             </div>
             <p>
-              현재 보고 있는 GitHub Pages 저장소입니다. 프로젝트 포트폴리오와 예전 Java03 학습 자료를 함께 보관합니다.
+              Windows PC에 설치된 개발 도구, 실행 경로, 버전, 환경변수, 최신 버전 대비 상태를 한눈에 점검하는 GUI 유틸리티입니다.
             </p>
             <ul class="chip-row" aria-label="Project tags">
-              <li>GitHub Pages</li>
-              <li>Portfolio</li>
-              <li>Archive</li>
+              <li>Python</li>
+              <li>Windows GUI</li>
+              <li>Environment audit</li>
             </ul>
-            <p class="feature-note">완성 프로젝트와 학습 기록을 한 계정 안에서 연결해 보여주는 허브 역할을 맡습니다.</p>
+            <p class="feature-note">설치 유무 확인에 그치지 않고 버전 노후화 여부와 환경변수 상태까지 같이 보여주는 실용적인 진단 도구입니다.</p>
             <div class="card-links">
-              <a href="https://kibin0-0.github.io" target="_blank" rel="noreferrer">현재 페이지</a>
-              <a href="java03/" target="_blank" rel="noreferrer">Java03 아카이브</a>
-              <a href="#essay-pages">정리 글</a>
+              <span class="inline-note">현재 비공개 저장소</span>
+              <a href="#essay-audit">정리 글</a>
             </div>
           </article>
         </div>
@@ -177,19 +176,22 @@
             </p>
           </article>
 
-          <article class="essay-card" id="essay-pages">
-            <h3>GitHub Pages Portfolio / Java03 Archive</h3>
+          <article class="essay-card" id="essay-audit">
+            <h3>Developer Tool Audit</h3>
             <p>
-              이 저장소는 현재 포트폴리오의 진입점이면서, 과거 Java03 수업 과제 결과물을 보관하는 아카이브 역할도 합니다.
-              오래된 HTML 기반 과제 파일과 이미지 자료를 유지한 상태에서, 메인 화면은 최신 프로젝트를 소개하는 형태로 갱신했습니다.
+              Developer Tool Audit는 Windows 환경에서 주요 개발 도구를 자동으로 찾아 설치 상태만이 아니라
+              실제 실행 경로, 설치 버전, 관련 환경변수, 최신 공개 버전 대비 outdated 여부까지 한 번에 보여주는 GUI 프로그램입니다.
+              Git, VS Code, Python, Java, Node.js, Go, Rust, .NET, Maven, Gradle, Docker 같은 대표 도구를 우선 점검하고,
+              새로 발견한 개발 명령도 이후 검사 목록에 자동으로 학습하도록 설계되어 있습니다.
             </p>
             <p>
-              완성된 결과물만 따로 떼어 보여주기보다, 학습 기록과 최신 작업을 한 계정 안에서 이어서 볼 수 있게 만든다는 점에서
-              저장소 자체의 의미가 있습니다. 즉, 작업 결과와 성장 과정이 함께 드러나는 포트폴리오 허브입니다.
+              이 프로젝트의 강점은 "개발 환경의 가시화"에 있습니다. 터미널에서 명령어를 하나씩 입력하지 않아도,
+              어떤 도구가 어디에서 실행되고 있는지, 환경변수가 올바른지, 버전이 얼마나 오래되었는지를 표 형태로 바로 확인할 수 있습니다.
+              GUI 실행뿐 아니라 JSON 출력과 exe 패키징까지 고려해 두어서 개인 PC 점검, 실습실 관리, 팀 장비 표준화 같은 용도로 확장하기 좋습니다.
             </p>
             <p>
-              앞으로 공개 저장소가 더 늘어나도 이 페이지가 자동으로 목록을 읽어오도록 구성해 두었기 때문에,
-              새 프로젝트를 추가할수록 포트폴리오도 자연스럽게 확장됩니다.
+              확인 시점 기준 이 저장소는 2026년 3월 19일에 생성된 비공개 프로젝트입니다. 그래서 아래 자동 저장소 목록에는 나타나지 않지만,
+              대표 프로젝트 섹션에서는 최신 작업으로 따로 소개해 두었습니다.
             </p>
           </article>
         </div>
@@ -199,7 +201,7 @@
         <div class="section-head">
           <p class="section-label">Live Repository Index</p>
           <h2>GitHub에 올라간 전체 공개 저장소</h2>
-          <p>이 아래 목록은 GitHub API를 읽어 최신 순서와 주요 링크를 자동으로 표시합니다.</p>
+          <p>이 아래 목록은 GitHub API를 읽어 전체 공개 저장소만 최신 순서와 주요 링크로 자동 표시합니다.</p>
         </div>
         <div id="repoGrid" class="repo-grid" aria-live="polite">
           <article class="repo-card repo-card--loading">

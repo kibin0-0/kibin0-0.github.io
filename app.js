@@ -1,6 +1,5 @@
 (function () {
   const username = "kibin0-0";
-  const archiveUrl = new URL("java03/", window.location.href).toString();
   const featuredOrder = [
     "jlpt-kanji-dialogue-lab-20260305",
     "sumdoku-fusion-web-20260305",
@@ -24,16 +23,20 @@
       liveUrl: "https://webtset.vercel.app",
       articleUrl: "#essay-sumdoku"
     },
+    "developer-tool-audit": {
+      label: "Featured Windows utility",
+      displayName: "Developer Tool Audit",
+      summary: "Windows 환경의 개발 도구, 버전, 경로, 환경변수, 최신 버전 대비 상태를 점검하는 GUI 유틸리티입니다.",
+      extraTags: ["Python", "Windows GUI"],
+      articleUrl: "#essay-audit"
+    },
     "kibin0-0.github.io": {
-      label: "Portfolio and archive",
+      label: "Portfolio site",
       displayName: "kibin0-0.github.io",
-      summary: "현재 포트폴리오 메인 페이지와 Java03 학습 자료 아카이브를 함께 관리하는 GitHub Pages 저장소입니다.",
-      extraTags: ["Pages", "Archive"],
+      summary: "현재 포트폴리오 메인 페이지를 관리하는 GitHub Pages 저장소입니다.",
+      extraTags: ["Pages", "Portfolio"],
       liveUrl: "https://kibin0-0.github.io",
-      articleUrl: "#essay-pages",
-      extraLinks: [
-        { label: "Java03 아카이브", url: archiveUrl }
-      ]
+      articleUrl: ""
     }
   };
 
@@ -63,7 +66,7 @@
       homepage: "https://kibin0-0.github.io",
       language: "HTML",
       stargazers_count: 0,
-      updated_at: "2026-03-05T05:13:50Z"
+      updated_at: "2026-03-19T04:58:48Z"
     }
   ];
 
