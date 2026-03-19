@@ -372,11 +372,6 @@ h3,
   color: var(--text);
 }
 
-.inline-note {
-  color: var(--muted);
-  font-weight: 700;
-}
-
 .accent-orange {
   border-color: rgba(231, 111, 81, 0.26);
 }

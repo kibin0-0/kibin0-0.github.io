@@ -3,6 +3,7 @@
   const featuredOrder = [
     "jlpt-kanji-dialogue-lab-20260305",
     "sumdoku-fusion-web-20260305",
+    "developer-tool-audit",
     "kibin0-0.github.io"
   ];
 
@@ -28,7 +29,10 @@
       displayName: "Developer Tool Audit",
       summary: "Windows 환경의 개발 도구, 버전, 경로, 환경변수, 최신 버전 대비 상태를 점검하는 GUI 유틸리티입니다.",
       extraTags: ["Python", "Windows GUI"],
-      articleUrl: "#essay-audit"
+      articleUrl: "#essay-audit",
+      extraLinks: [
+        { label: "exe 다운로드", url: "https://github.com/kibin0-0/developer-tool-audit/blob/main/dist/DevToolAudit.exe?raw=1" }
+      ]
     },
     "kibin0-0.github.io": {
       label: "Portfolio site",
@@ -58,6 +62,15 @@
       language: "JavaScript",
       stargazers_count: 0,
       updated_at: "2026-03-05T06:48:03Z"
+    },
+    {
+      name: "developer-tool-audit",
+      description: "Windows GUI utility for auditing developer tools, environment variables, and version currency.",
+      html_url: "https://github.com/kibin0-0/developer-tool-audit",
+      homepage: "",
+      language: "Python",
+      stargazers_count: 0,
+      updated_at: "2026-03-19T05:13:03Z"
     },
     {
       name: "kibin0-0.github.io",
