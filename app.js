@@ -31,7 +31,7 @@
       extraTags: ["Python", "Windows GUI"],
       articleUrl: "#essay-audit",
       extraLinks: [
-        { label: "exe 다운로드", url: "https://github.com/kibin0-0/developer-tool-audit/blob/main/dist/DevToolAudit.exe?raw=1" }
+        { label: "exe 다운로드", url: "https://github.com/kibin0-0/developer-tool-audit/releases/latest/download/DevToolAudit.exe" }
       ]
     },
     "kibin0-0.github.io": {
